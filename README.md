@@ -63,3 +63,32 @@ export default Card;
 * Hierarchy between components (parents/children)
 * Components can have children that are components
 * How to integrate JS into JSX
+
+## Module 3
+
+* How to integrate CSS into your React application
+* Differences between `class` and `className`
+* `key` property of components
+
+React asks for a `key` property in `li` elements, they don't appear in the HTML code, it's for library purposes.
+
+* CSS Naming Standard
+* Treating name conflicts
+* Modules entry point
+* Project organization
+
+Inside the folders of the components, you can create a `index.js` file just to export the component, avoiding the duplication of the component name when exporting it.
+
+For example, this:
+
+```js
+import Card from './components/Card/Card'
+```
+
+becomes this:
+
+```js
+import Card from './components/Card'
+```
+
+I also noticed that the project was printing an error, saying it couldn't find the component, until I restarted the server.

@@ -92,3 +92,9 @@ import Card from './components/Card'
 ```
 
 I also noticed that the project was printing an error, saying it couldn't find the component, until I restarted the server.
+
+## Module 4
+
+* How the JS `this` keyword is dinamic and how to deal with it
+* References to functions and injection of dependecies
+* Associating references through `bind`

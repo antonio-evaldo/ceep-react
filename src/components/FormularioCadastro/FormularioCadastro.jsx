@@ -2,12 +2,22 @@ import { Component } from 'react';
 import './estilo.css';
 
 class FormularioCadastro extends Component {
+  constructor() {
+    super();
+    this.titulo = "";
+  }
+
+  handleMudancaTitulo(evento) {
+    this.titulo = evento.target.value;
+  }
+
   render() {
     return (
       <form className="formulario-cadastro">
         <input
           type="text"
           placeholder="Título"
+          onChange={this.handleMudancaTitulo.bind(this)}
           autoFocus
         />
         

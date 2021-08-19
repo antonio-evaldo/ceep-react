@@ -68,7 +68,7 @@ export class CustomButton extends Component {
         // Declaring properties...
     }
 
-    function test(event) {
+    test(event) {
         // Using the this keyword...
     }
 
@@ -105,7 +105,7 @@ constructor() {
     }
 }
 
-function addNumber(newNumber) {
+addNumber(newNumber) {
     const newState = {
         numbers: [...this.state.numbers, newNumber]
     }

@@ -60,7 +60,7 @@ I also noticed that the project was printing an error, saying it couldn't find t
 * References to functions and injection of dependecies
 * Associating references through `bind`
 
-When passing the reference of a function as a property of a component, and the function body uses the `this` keyword, we have to **bind** the `this` to the original function, avoiding the its reference to dynamically change. For this, we use the `bind` React method when passing the function as a reference. For example:
+When passing the reference of a function as a property of a component, and the function body uses the `this` keyword, we have to **bind** the `this` to the original function, avoiding its reference to dynamically change. For this, we use the `bind` React method when passing the function as a reference. For example:
 
 ```js
 export class CustomButton extends Component {

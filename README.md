@@ -81,7 +81,7 @@ export class CustomButton extends Component {
 }
 ```
 
-What we pass to the `bind` method parameter, the function will refer to it when using `this` internal keyword.
+The parameter we pass to the `bind` method, the function will refer to when using the `this` keyword.
 
 ## Module 5
 
